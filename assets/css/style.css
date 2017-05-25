@@ -18,12 +18,12 @@
 
 @font-face {
     font-family: openSans;
-    src: url(../_media/OpenSans-Light.ttf);
+    src: url(../media/OpenSans-Light.ttf);
 }
 
 @font-face {
     font-family: Lato;
-    src: url(../_media/Lato-Bold.ttf);
+    src: url(../media/Lato-Bold.ttf);
 }
 
 /* General */
@@ -77,7 +77,7 @@ h2{
     top: 0;
     left: 3em;
     z-index: 3;
-    background: url(../_media/logo_small.png) no-repeat center;
+    background: url(../media/logo_small.png) no-repeat center;
 }*/
 
 /* Navigation Bar */
@@ -127,7 +127,7 @@ nav ul li a .current, nav ul li a:hover {
     top: 0;
     left: 0;
     color: white;
-    background: url(../_media/logo_small.png) no-repeat center black;
+    background: url(../media/logo_small.png) no-repeat center black;
     border-bottom: 3px solid black;
     
 }
@@ -147,7 +147,7 @@ nav ul li a .current, nav ul li a:hover {
     height: 3.5em;
     width: 3.5em;
     color: white;
-    background: url("../_media/nav-button_small.png") no-repeat center;
+    background: url("../_media/nav-buttonsmall.png") no-repeat center;
 }
 
 /* Body, main */
@@ -301,25 +301,25 @@ div#social-media-icons a {
 }
 
 div#social-media-icons a#fb-icon {
-    background-image: url(../_media/_social-media-icons/fb_small.png);
+    background-image: url(../media/social-media-icons/fb_small.png);
 }
 
 div#social-media-icons a#fb-icon:hover {
-    background-image: url(../_media/_social-media-icons/fb_small_hover.png);
+    background-image: url(../media/social-media-icons/fb_small_hover.png);
 }
 
 div#social-media-icons a#tw-icon {
-    background-image: url(../_media/_social-media-icons/tw_small.png);
+    background-image: url(../media/social-media-icons/tw_small.png);
 }
 
 div#social-media-icons a#tw-icon:hover {
-    background-image: url(../_media/_social-media-icons/tw_small_hover.png);
+    background-image: url(../media/social-media-icons/tw_small_hover.png);
 }
 
 div#social-media-icons a#ss-icon {
-    background-image: url(../_media/_social-media-icons/ss_small.png);
+    background-image: url(../media/social-media-icons/ss_small.png);
 }
 
 div#social-media-icons a#ss-icon:hover {
-    background-image: url(../_media/_social-media-icons/ss_small_hover.png);
+    background-image: url(../media/social-media-icons/ss_small_hover.png);
 }

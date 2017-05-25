@@ -1,0 +1,74 @@
+
+@charset "UTF-8";
+
+html {
+    font-size: 14pt;
+}
+
+/* Navigation */
+#mobile-header {
+	display: block;
+}
+
+#nav-button-container {
+    width: 30%;
+}
+
+nav {
+    left: -30%;
+    width: 30%;
+    height: 100%;
+}
+
+nav ul li a {
+    font-size: 16pt;
+    padding: .5em;
+}
+
+/* Main */
+main#home-main {
+	margin-top: 0;
+}
+
+main { 
+    margin: 3.5em 5% 1.5em 5%;
+}
+
+main#home-main {
+    margin:0;
+    padding: 5em 0 0;
+}
+
+h1 {
+	padding-top: .5em;
+	font-size: 40pt;
+}
+
+/*Faculty pictures */
+#faculty-container{
+    float: left;
+    display: table;
+    width: 100%; 
+}
+
+#faculty-container .faculty{
+    display: table-cell;
+    text-align: center;
+    width: 33.3%;
+    padding: 2% 0 6% 0;
+} 
+
+#faculty-container .faculty picture{
+    width: 100%;
+    max-width: 250px;
+}
+
+#faculty-container h2:hover{
+    color: #999;
+}
+
+#faculty-container h2{
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+}

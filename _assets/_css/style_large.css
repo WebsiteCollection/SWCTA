@@ -1,0 +1,106 @@
+
+@charset "UTF-8";
+
+#logo {
+    background-image: url(../_media/logo_medium.png);
+    
+    height: 108px;
+    width: 99px;
+    left: 0;
+}
+
+/* Navigation */
+#mobile-header {
+    display: none;
+}
+
+#nav-button {
+    display: none;
+}
+
+nav {
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    height: auto;
+}
+
+nav ul {
+    display: block;
+    padding: 1em;
+}
+
+nav ul li {
+    display: inline;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 1em 2%;
+    display: inline;
+}
+
+div#about{
+    padding: 1.5em 25%;
+}
+ /* Main */
+main { 
+    margin: 3.5em 20% 1.5em 20%;
+}
+
+main#home-main {
+    margin:0;
+    padding: 5em 0 0;
+}
+
+/* Social Media */
+div#social-media-icons {
+    position: fixed;
+    top: 0;
+    right: 0;
+	height: 3em;
+}
+
+.description, .news, .program-description{
+    overflow: auto;
+}
+
+.description img, .news img, .program-description imh{
+    margin-bottom: 1em;
+}
+
+#address {
+    float: right;
+}
+
+/*Faculty pictures */
+#faculty-container{
+    float: left;
+    display: table;
+    width: 100%; 
+}
+
+#faculty-container .faculty{
+    display: table-cell;
+    text-align: center;
+    width: 33.3%;
+    padding: 2% 0 6% 0;
+} 
+
+#faculty-container .faculty picture{
+    width: 100%;
+    max-width: 250px;
+}
+
+#faculty-container h2{
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+}
+
+#faculty-container h2:hover{
+    color: #999;
+}

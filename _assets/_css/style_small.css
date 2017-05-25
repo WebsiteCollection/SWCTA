@@ -1,0 +1,109 @@
+
+@charset "UTF-8";
+
+html {
+    font-size: 13pt;
+}
+
+/* Navigation */
+#mobile-header {
+    display: block;
+}
+    
+#nav-button-container {
+	width: 75%;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 18pt;
+    padding: .5em;
+}
+
+/* Main */
+main { 
+    margin: 3.5em 3% 1.5em 3%;
+}
+
+main#home-main {
+    margin:0;
+    padding: 2em 0 0 0;
+}
+
+main.no-margin-main {
+    margin-top: 4em;
+}
+
+/* General and News page */
+h1 {
+    font-size: 32pt;
+    margin: 5px 0 10px 0;
+    padding-top:6px;
+}
+
+div.news h2 {
+    font-size: 22pt;
+}
+
+div.news div.date {
+    font-size: 12pt;
+}
+
+/*Faculty pictures */
+#faculty-container{
+    float: left;
+    display: table;
+    width: 100%; 
+    padding-top: .5em;
+}
+
+#faculty-container .faculty{
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: #999 2px solid;
+}
+
+#faculty-container .faculty picture{
+    width: 100%;
+    max-width: 250px;
+}
+
+#faculty-container h2{
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+}
+
+#faculty-container h2:hover{
+    color: #999;
+}
+
+#admin caption{
+    padding-top: 1em;
+}
+
+/* Academy Icons */
+div.academy {
+	width: 90%;
+	padding: 1em;
+}
+
+div.academy img {
+	width: 90%;
+}
+
+/* Footer */
+footer {
+	padding: .5em;
+}
+
+footer div#social-media-icons a img {
+	padding: 0 .5em 0 0;
+}

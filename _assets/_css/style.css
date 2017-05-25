@@ -1,0 +1,325 @@
+
+@charset "UTF-8";
+
+/* This stylesheet will apply to all sizes. */
+/* Testing Fonts 
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400,900);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700); */
+
+/* Color scheme
+	brown - #8c562f 
+	copper - #C2A264
+	red - #c33419
+	dark gray - #333
+    light gray - #999 
+*/
+
+@font-face {
+    font-family: openSans;
+    src: url(../_media/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../_media/Lato-Bold.ttf);
+}
+
+/* General */
+html {
+    font-family: openSans, sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #222;
+}
+
+body {
+    min-width: 50px;
+    margin: 0;
+    min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #c33419;
+}
+
+a:hover {
+	color: #999;
+	text-decoration: none;
+}
+
+p{
+    line-height: 1.3em;
+}
+
+h1 {
+    font-family: Lato, sans-serif;
+    font-size: 42pt;
+    text-transform: uppercase;
+    border-bottom: 2.5pt solid black;
+    color: black;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #c33419;
+    font-size: 20pt;
+    font-family: Lato, sans-serif;
+    margin: 0;
+    font-weight: 600;
+}
+
+/*#logo {
+    height: 71px;
+    width: 65px;
+    top: 0;
+    left: 3em;
+    z-index: 3;
+    background: url(../_media/logo_small.png) no-repeat center;
+}*/
+
+/* Navigation Bar */
+#nav-button {
+    height: 2.5em;
+}
+
+/* Nav Menu */
+nav {
+    width: 75%;
+    left: -75%;
+    top: 0;
+    background-color: black;
+    color: #333;
+    margin: 0;
+    position: fixed;
+    height: 100%;
+    transition: transform 0.33s;
+    font-family: Lato, sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+nav ul li a .current, nav ul li a:hover {
+    background-color: #8c562f;
+    color: white;
+}
+
+/* Moblie Header */
+#mobile-header {
+    position: fixed;
+    width: 100%;
+    height: 3.5em;
+    top: 0;
+    left: 0;
+    color: white;
+    background: url(../_media/logo_small.png) no-repeat center black;
+    border-bottom: 3px solid black;
+    
+}
+
+#nav-button-container {
+    width: 75%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    left: 0;
+    text-align: left;
+    transition: transform 0.33s;
+}
+
+#nav-button {
+    display: inline-block;
+    height: 3.5em;
+    width: 3.5em;
+    color: white;
+    background: url("../_media/nav-button_small.png") no-repeat center;
+}
+
+/* Body, main */
+main.no-margin-main {	
+	margin: 0;
+}
+
+#banner {
+	width: 100%;
+}
+
+/* For the ABOUT section on the index page */
+div#about {
+    background-color: #333;
+    color: white;
+    padding: 1.5em;
+}
+
+div#about h1 {
+    color: white;
+	border-color: white;
+    margin: 0;
+}
+
+/* Calendar */
+#calendar{
+    background-color: #333;
+    text-align: center;
+    padding-bottom: 1em;
+} 
+
+/* Club description, News, and Program Areas*/
+div.description, div.news {
+    border-bottom: 2px solid #999;
+    margin-bottom: 1em;
+}
+
+div.other-clubs{
+    padding-top: 0.5em;
+    line-height: 1.3em;
+}
+
+div.program-description{
+    padding: 1.5em 0;
+}
+
+div.news div.date, div.description, div.other-clubs, div.program-description h3 {
+	margin: .25em 0;
+}
+
+.description img, .news img, .left img {
+    float: left;
+    margin-top: 1em;
+    margin-right: .5em;
+}
+
+.right{
+    text-align: right;
+}
+
+.right img{
+    float: right;
+    margin-top: 1em;
+    margin-right: .5em;
+}
+
+.program-lists li{
+    list-style-position: inside;
+}
+
+/* Academy Icons */
+div.academy {
+    float: left;
+    width: 40%;
+    padding: 5em 5% 2em;
+	text-align: center;
+}
+
+div.academy img {
+    width: 100%;
+}
+
+div#pa-icon {
+    background-color: #333;
+}
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+}
+
+caption {
+	color: #c33419;
+    font-size: 20pt;
+    font-family: Lato, sans-serif;
+    margin: 0;
+    font-weight: 600;
+    text-align: left;
+}
+
+th{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding: 20px 12px 10px 12px;
+}
+
+td {
+    border:#999 1px solid;
+	padding: .75em;
+}
+
+#admin{
+    clear: left;
+}
+
+ul li ul.advisor li{
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    color: white;
+    background-color: black;
+    clear: both;
+    padding: 1em;
+}
+
+#copyright {
+    display: inline-block;
+}
+
+#address {
+    display: inline-block;
+    text-align: right;
+}
+
+/* Social Media Icons */
+div#social-media-icons {
+	height: 3em;
+    position: static;
+}
+
+div#social-media-icons a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+div#social-media-icons a#fb-icon {
+    background-image: url(../_media/_social-media-icons/fb_small.png);
+}
+
+div#social-media-icons a#fb-icon:hover {
+    background-image: url(../_media/_social-media-icons/fb_small_hover.png);
+}
+
+div#social-media-icons a#tw-icon {
+    background-image: url(../_media/_social-media-icons/tw_small.png);
+}
+
+div#social-media-icons a#tw-icon:hover {
+    background-image: url(../_media/_social-media-icons/tw_small_hover.png);
+}
+
+div#social-media-icons a#ss-icon {
+    background-image: url(../_media/_social-media-icons/ss_small.png);
+}
+
+div#social-media-icons a#ss-icon:hover {
+    background-image: url(../_media/_social-media-icons/ss_small_hover.png);
+}
